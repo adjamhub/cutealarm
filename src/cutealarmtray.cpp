@@ -20,7 +20,7 @@ CuteAlarmTray::CuteAlarmTray (QObject *parent)
     : QSystemTrayIcon (parent)
     , _contextMenu( new QMenu )
 {
-    setIcon( QIcon::fromTheme("") );
+    setIcon( QIcon::fromTheme("alarm-clock-panel") );
     
     setToolTip("Alarm");
     

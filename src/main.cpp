@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
     app.setOrganizationDomain("adjam.org");
 
     app.setQuitOnLastWindowClosed(false);
-    app.setWindowIcon( QIcon::fromTheme("") );
+    app.setWindowIcon( QIcon::fromTheme("alarm-clock-panel") );
 
     CuteAlarmTray cat;
     cat.show();
